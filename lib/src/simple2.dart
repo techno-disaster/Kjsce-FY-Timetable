@@ -5,12 +5,7 @@ import 'timetable.dart';
 import 'database_helper.dart';
 import 'cupertinoSwitchListTile.dart';
 import 'package:provider/provider.dart';
-// import 'attendance.dart';
-// import 'about.dart';
-// import 'percentCal.dart';
-// import 'package:query/query.dart';
-//import 'package:body_parser/body_parser.dart';
-//import 'package:sqflite/sqflite.dart';
+
 
 // Example holidays
 final Map<DateTime, List> _holidays = {
@@ -39,7 +34,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
   List<String> _selectedEvents;
   AnimationController _controller;
   DatabaseHelper helper = DatabaseHelper();
-  //DataProvider data = DataProvider();
   
   @override
   bool get wantKeepAlive => true;
@@ -47,9 +41,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
   @override
   void initState() {
     super.initState();
-    // data.selectedDay = DateTime.now();
-    //_selectedDay = DateTime.now();
-    // _selectedDay = _selectedDay;
     DataProvider data = DataProvider();
     _baseDay = DateTime(2019,07,01);
     _lastDay = DateTime(2019,10,16);
@@ -105,21 +96,12 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
     _controller.forward();
   }
 
-  // void didDependencies() {
-  //   super.didChangeDependencies();
-  //   final dp = Provider.of<DataProvider>(context);
-
-  //   dp.setSelectedDay = DateTime.now();
-
-  //  // _selectedEvents = _events[data.getSelectedDay] ?? [];
-
-  // }
+ 
 
   void _onDaySelected(DateTime day, List events) {
     setState(() {
       final dp = Provider.of<DataProvider>(context);
       dp.setSelectedDay = day;
-      // _selectedDay = _selectedDay;
       _selectedEvents = events;
     });
   }
@@ -148,10 +130,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
   Widget build(BuildContext context) {
     super.build(context);
     return Scaffold(
-//      appBar: AppBar(
-//        title: Text(widget.title),
-//        backgroundColor: Color(0x121212),
-//      ),
       body: Container(
         child: Column(
          mainAxisSize: MainAxisSize.max,
@@ -184,12 +162,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
                color: Theme.of(context).accentColor,
               ),
             ),
-            // _buildTableCalendarWithBuilders(),
-            //const SizedBox(height: 0.0),
             Expanded(
-             //flex: 1,
               child: _buildEventList()),
-              //const SizedBox(height: 8.0),  
           ],
         ),
       ),
@@ -239,7 +213,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin, 
     );
   }
 
-//  bool _isChecked;
   
   Widget _buildEventList() {
      

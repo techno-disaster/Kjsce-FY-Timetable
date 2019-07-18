@@ -48,7 +48,7 @@ class About extends StatelessWidget {
                 applicationIcon: Container(
                   margin: EdgeInsets.fromLTRB(15.0, 15.0, 15.0, 0.0),
                   child: Image(
-                    image: AssetImage("Assets/icon.png"),
+                    image: AssetImage("assets/icon.png"),
                     height: 150.0,
                   ),
                 ),
@@ -57,7 +57,7 @@ class About extends StatelessWidget {
                    mainAxisSize: MainAxisSize.max,
                    mainAxisAlignment: MainAxisAlignment.start,
                    children: <Widget>[
-                     Text('How to use this App? : '),
+                     Text('How to use this App? '),
                      RichText(
                        text: TextSpan(
                          text: 'Click Here!', 
@@ -65,7 +65,7 @@ class About extends StatelessWidget {
                          color: Theme.of(context).primaryColor,
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://github.com/dhruvkelawala/dotfiles/blob/master/README.md'),
+                       ..onTap = () => launch('https://github.com/dhruvkelawala/bunk_it_app/blob/master/README.md'),
                        ),
                      )
                    ],
@@ -75,30 +75,27 @@ class About extends StatelessWidget {
                    mainAxisSize: MainAxisSize.max,
                    mainAxisAlignment: MainAxisAlignment.start,
                    children: <Widget>[
-                     Text('Want To Contribute or Just see the code? : '),
-                    
-                   ],
-                 ),
-                 SizedBox(height: 3.0,),
-                  RichText(
+                     Text('Want To Contribute or Just see the code? '),
+                    RichText(
                        text: TextSpan(
-                         text: 'github.com/dhruvkelawala', 
+                         text: 'Github', 
                          style: TextStyle(
                          color: Theme.of(context).primaryColor,
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://github.com/dhruvkelawala/'),
+                       ..onTap = () => launch('https://github.com/dhruvkelawala/bunk_it_app'),
                        ),
                      ),
+                   ],
+                 ),
                  SizedBox(height: 15.0,),
                   Row(
                      mainAxisSize: MainAxisSize.max,
                      mainAxisAlignment: MainAxisAlignment.start,
                      children: <Widget>[
-                       Text('Found a Bug?: ',
-                      // overflow: TextOverflow.ellipsis,
+                       Text('Found a Bug? ',
                        ),
-                       Text("Report me on Telegram",
+                       Text("Report me on Telegram  ",
                        style: TextStyle(
                          color: Theme.of(context).primaryColor,
                        ),
@@ -110,10 +107,9 @@ class About extends StatelessWidget {
                      mainAxisSize: MainAxisSize.max,
                      mainAxisAlignment: MainAxisAlignment.start,
                      children: <Widget>[
-                       Text('Have any other Query?',
-                      // overflow: TextOverflow.ellipsis,
+                       Text('Have any other Query? ',
                        ),
-                       Text("  Ask me on ",
+                       Text("Ask me on ",
                        style: TextStyle(
                          color: Theme.of(context).primaryColor,
                        ),
@@ -137,7 +133,6 @@ class About extends StatelessWidget {
                      mainAxisAlignment: MainAxisAlignment.start,
                      children: <Widget>[
                        Text('Follow Me on: ',
-                      // overflow: TextOverflow.ellipsis,
                        ),
                         RichText(
                        text: TextSpan(

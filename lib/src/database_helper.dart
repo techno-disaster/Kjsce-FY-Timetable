@@ -198,8 +198,7 @@ class DatabaseHelper {
       int rCountTotal = Sqflite.firstIntValue(countTotal2);
 
       double percent = (rCountTrue/rCountTotal)*100;
-
-      // print(countTrue.toString());
+    
       return percent;
     }
 

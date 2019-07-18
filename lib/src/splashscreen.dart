@@ -19,11 +19,10 @@ class _MySplashScreenState extends State<MySplashScreen> {
         fontSize: 25.0,
         color: Colors.white70
       ),),
-      image: Image.asset("Assets/icon.png"),
+      image: Image.asset("assets/icon.png"),
       backgroundColor: Color(0xff191414),
       styleTextUnderTheLoader: TextStyle(),
       photoSize: 50.0,
-     // onClick: ()=>print("Flutter Egypt"),
       loaderColor: Theme.of(context).primaryColor,
     );
   }

@@ -19,11 +19,9 @@ class MyApp extends StatelessWidget {
          scaffoldBackgroundColor: Colors.black,
          primaryColor: Color(0xff1db954),
          accentColor: Color(0xff191414),
-       // accentColor: Colors.white,
         brightness: Brightness.dark,
         fontFamily: 'Product_Sans',
       ),
-     // home: DashboardScreen(),
      home: MySplashScreen(),
     )
     );
@@ -40,15 +38,12 @@ class DashboardScreen extends StatefulWidget {
 class _DashboardScreenState extends State<DashboardScreen> {
   PageController _pageController;
   int _page = 0;
-  //MyHomePageState home = MyHomePageState();
-  // DateTime _selectedDay = home.selectedDay;
   final PageStorageBucket bucket = PageStorageBucket();
 
   @override
   void initState() {
     super.initState();
     _pageController = new PageController();
-    // MyHomePage home = MyHomePage();
   }
 
   @override
