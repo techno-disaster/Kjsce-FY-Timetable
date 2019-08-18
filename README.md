@@ -24,7 +24,7 @@ An Attendance and Bunk Managing App based on your TimeTable.
     * You can operate the Calendar in **Three** Modes. ***Week, Two Weeks and Month***
     * There are no lectures on weekend. So the App has been designed in that way. So ignore special days of attendance.
     * ***Practical Lecture*** consists of **Two Lectures**. So incase of Practical Lectures, Two Switches are inter-related.
-    * This App for now will work only For 3rd Sem IT Students because of Hard-Coded TimeTable. In future, it may be available for all.
-    *  This is app is in ***Beta*** stages for now. However I haven't faced any bugs so far. If you face any, Report me on [Telegram](https://t.me/hammered).
+    * This App for now will work only For 1st Sem ExTc E Students because of Hard-Coded TimeTable. In future, it may be available for all.
+    *  This is app is in ***Beta*** stages for now. However I haven't faced any bugs so far. If you face any, Report me on [Telegram](https://t.me/techno_disaster).
 
 

@@ -57,6 +57,17 @@ class About extends StatelessWidget {
                    mainAxisSize: MainAxisSize.max,
                    mainAxisAlignment: MainAxisAlignment.start,
                    children: <Widget>[
+                     Text('How to use this App? '),
+                     RichText(
+                       text: TextSpan(
+                         text: 'Click Here!', 
+                         style: TextStyle(
+                         color: Theme.of(context).primaryColor,
+                       ),
+                       recognizer: TapGestureRecognizer()
+                       ..onTap = () => launch('https://github.com/Techno-Disaster/Kjsce-FY-Timetable/blob/master/README.md'),
+                       ),
+                     )
                      
                    ],
                  ),
