@@ -10,7 +10,7 @@ class DatabaseHelper {
   DateTime _baseDay = DateTime(2019,07,01);
   DateTime _lastDay = DateTime(2019,10,16);
  
-  final Map<DateTime, List> _holidays = {
+  final Map<DateTime, List> holidays = {
   DateTime(2019, 8, 12): ['Bakrid'],
   DateTime(2019, 8, 15): ['Independance Day, Rakshabandhan'],
   DateTime(2019, 9, 14): ['Muhharam'],

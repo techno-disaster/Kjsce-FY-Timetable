@@ -4,7 +4,7 @@ import 'attendance.dart';
 import 'about.dart';
 import 'dataProvider.dart';
 import 'package:provider/provider.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'splashscreen.dart';
 
 class MyApp extends StatelessWidget {

@@ -1,7 +1,30 @@
-
-const List<String> mon = ['IC', 'DBMS', 'DS','PS','DF(A)/DS(B)','DF(A)/DS(B)'];
-const List<String> tues = ['DBMS', 'DS', 'DF','PS', 'DS(A)/ETC(B)', 'DS(A)/ETC(B)'];
-const List<String> wed = ['DS(A)/DBMS(B)', 'DS(A)/DBMS(B)', 'DBMS', 'IC', 'DF','DE'];
-const List<String> thur = ['DBMS', 'PS', 'ETC(A)/DS(B)', 'ETC(A)/DS(B)', 'ETC', 'PS[Tutorial]'];
-const List<String> fri = ['DS', 'DF', 'ETC', 'PS', 'DBMS(A)/DF(B)' , 'DBMS(A)/DF(B)'];
+const List<String> mon = [
+  'E1 PIC LAB B110 | E2 PIC LAB B110 | E3 PIC LAB B214',
+  'EP A102 SAM',
+  'AM A102 VEK',
+  'EM A102',
+];
+const List<String> tues = [
+  'E1 AM A102 | E2 AM A103 | E3 AM B104',
+  'EP A102 | E2 PIC B110 | E3 PIC B213',
+  'AM A102 RVD',
+];
+const List<String> wed = [
+  'E1 EP A016 | E2 EVS A102 | E3 EM A207',
+  'EM A102',
+  'AM A102 A_S',
+  'EP A102 A_S'
+];
+const List<String> thur = [
+  'E1 WS | E2 WS | E3 WS',
+  'E1 EM A207 | E2 EP A016 | E3 EVS A102',
+  'EM A102 BSS',
+];
+const List<String> fri = [
+  'MAKEUP A102 LEC',
+  'AM A102 RVD',
+  'PIC A102 RMS',
+  'EP A102 SAM',
+  'E1 EVS A102 | E2 EM A207 | E3 EP A016',
+];
 const List<String> nan = [' '];

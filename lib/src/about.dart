@@ -57,17 +57,7 @@ class About extends StatelessWidget {
                    mainAxisSize: MainAxisSize.max,
                    mainAxisAlignment: MainAxisAlignment.start,
                    children: <Widget>[
-                     Text('How to use this App? '),
-                     RichText(
-                       text: TextSpan(
-                         text: 'Click Here!', 
-                         style: TextStyle(
-                         color: Theme.of(context).primaryColor,
-                       ),
-                       recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://github.com/dhruvkelawala/bunk_it_app/blob/master/README.md'),
-                       ),
-                     )
+                     
                    ],
                  ),
                  SizedBox(height: 15.0,),
@@ -83,7 +73,7 @@ class About extends StatelessWidget {
                          color: Theme.of(context).primaryColor,
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://github.com/dhruvkelawala/bunk_it_app'),
+                       ..onTap = () => launch('https://technodisaster.me'),
                        ),
                      ),
                    ],
@@ -122,7 +112,7 @@ class About extends StatelessWidget {
                          decoration: TextDecoration.underline
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('http://t.me/hammered'),
+                       ..onTap = () => launch('http://t.me/techno_disaster'),
                        ),
                      )
                      ],
@@ -142,7 +132,7 @@ class About extends StatelessWidget {
                          decoration: TextDecoration.underline
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://www.instagram.com/i_d_kelawala/'),
+                       ..onTap = () => launch('https://www.instagram.com/techno_disaster/'),
                        ),
                      ),
                      Text(" and ", style: TextStyle(color: Theme.of(context).primaryColor),),
@@ -154,7 +144,7 @@ class About extends StatelessWidget {
                          decoration: TextDecoration.underline
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://twitter.com/dhruv_kelawala'),
+                       ..onTap = () => launch('https://twitter.com/techno_disaster'),
                        ),
                      ),
                      ],
