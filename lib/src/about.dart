@@ -84,7 +84,7 @@ class About extends StatelessWidget {
                          color: Theme.of(context).primaryColor,
                        ),
                        recognizer: TapGestureRecognizer()
-                       ..onTap = () => launch('https://technodisaster.me'),
+                       ..onTap = () => launch('https://github.com/Techno-Disaster/Kjsce-FY-Timetable/'),
                        ),
                      ),
                    ],
