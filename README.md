@@ -2,7 +2,7 @@
 
 An Attendance and Bunk Managing App based on your TimeTable.
 
-Special thanks to kelawala foer most of it.
+Special thanks to kelawala for most of it.
 
 ## Screenshots
 <p align="center">
