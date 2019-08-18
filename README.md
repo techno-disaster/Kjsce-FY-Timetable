@@ -2,6 +2,8 @@
 
 An Attendance and Bunk Managing App based on your TimeTable.
 
+Special thanks to kelawala for most of it.
+
 ## Screenshots
 <p align="center">
   <img src="https://github.com/dhruvkelawala/bunk_it_app/blob/master/Assets/Screenshots/1.png?raw=true" width="300" height="600">
